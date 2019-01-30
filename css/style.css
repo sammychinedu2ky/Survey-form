@@ -153,3 +153,33 @@ button{
   background-color:#B0C0E1;
   
 }
+@media screen and (max-width:746px){
+    #first, #third{
+    background-image:none;
+    background-color:#f2f2f5;
+    }
+    #second, #fourth{
+    background-image:none;
+    background-color:grey;
+    color: white;
+    }
+
+    #fifth{
+    height:7%;
+    }
+
+    textarea{
+    width:60%;
+    height:20%;
+    }
+
+    .right{
+    grid-column:1/4;
+    grid-row:1;
+    align-self:center;
+    }
+
+    #first,#second,#third,#fourth{
+    height:40vh;
+    }
+}
