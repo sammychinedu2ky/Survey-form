@@ -1,0 +1,155 @@
+@import url("https://use.typekit.net/bbc1fvt.css");
+*{
+    margin:0;
+    padding: 0;
+    font-family:sanvito-pro-display, sans-serif;
+    
+}
+header{
+    color:white;
+    height:20vh;
+    background-color: #B0C0E1;
+    text-align:center;
+    font-size:1.5em;
+    
+}
+#title{
+  height:100%;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+article{
+    text-align: center;
+    margin-top: 30px;
+    color:#686565;
+    font-size:2.0vw;
+    
+}
+#first, #second, #third, #fourth{
+  font-size: 2.5vw;
+  color:#686565;
+}
+
+#first{
+    height:70vh;
+    width:auto;
+    background-image: url("name.png");
+  background-size:contain;
+  background-repeat:no-repeat;
+  
+ display:grid;
+ grid-template-columns:6f 4f;
+grid-template-rows: 1f 2f 1f; 
+
+
+  
+    
+}
+.label-names{
+  display:inline-block;
+  width:20px;
+  margin-right:2em;
+}
+#first input{
+  box-shadow: 0 3px 20px rgba(72,63,63,60);
+  width: 150px;
+  height:20px;
+}
+#second{
+  height:70vh;
+    width:auto;
+    background-image: url("rating.png");
+  background-size:contain;
+  background-repeat:no-repeat;
+  display:grid;
+  grid-template-columns:6f 4f;
+ grid-template-rows: 1f 2f 1f; 
+}
+#second select{
+  box-shadow: 0 3px 20px rgba(72,63,63,60);
+  width: 7em;
+  height:5vh;
+}
+#third{
+    height:70vh;
+      width:auto;
+      background-image: url("recommend.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:grid;
+ grid-template-columns:6f 4f;
+grid-template-rows: 1f 2f 1f; 
+
+  }
+  #fourth{
+    height:70vh;
+      width:auto;
+      background-image: url("product\ use.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:grid;
+ grid-template-columns:6f 4f;
+grid-template-rows: 1f 2f 1f; 
+background-blend-mode: screen
+      
+  }
+  #fifth{
+    height:30vh;
+    width:auto;
+    color:#686565;
+    
+  }
+
+  #texttitle{
+    height:10vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:2vw;
+
+}
+textarea{
+  display:flex;
+  width:80%;
+  height:12vh;
+  background-color:#f5e7e7;
+  margin:auto;
+  border-radius:10px;
+}
+textarea::placeholder{
+  text-align:center;
+  font-size:2vw;
+}
+  
+
+
+
+.right{
+   grid-column:4;
+   grid-row:2/4;
+   justify-self:center;
+   display:inline-block;
+
+   
+    
+  
+}
+footer{
+  width:auto;
+  height:6vh;
+  display:flex;
+  
+
+ 
+}
+button{
+  display:block;
+  margin:auto;
+  width:10%;
+  height:50%;
+  border-radius:12px;
+  background-color:#B0C0E1;
+  
+}
