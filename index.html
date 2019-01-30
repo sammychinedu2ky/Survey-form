@@ -8,7 +8,101 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<div>
+        <header>
+            <h1 id="title">Survey Form</h1>
+        </header>
+        <article >
+           <p id = "description"> Please fill this form so that so that we can get to know you better and provide better services </p>
+        </article>
+        <form id="survey-form" action="mailto:samson2ky@yahoo.com" method="post">
+            <section id="first">
+                
 
-    <h1>Hello World, we are developers!</h1>
+                <div class="right">
+                    <label for ="name" id="name-label">
+                        <span class="label-names">Name:</span>
+                        <input type="text" id="name" placeholder="Name" required >
+                    </label><br>
+                    <label for ="email" id="email-label">
+                        <span class="label-names">Email:</span>
+                        <input type="email" id="email" placeholder = "Email" required >
+                    </label><br>
+                    <label for ="number" id="number-label">
+                            <span class="label-names"  >Age:</span>
+                            <input type="number" id="number" min="18" max="48" placeholder="Age">
+                    </label>
+                 </div>
+
+            </section>
+
+            <section id="second">
+                
+
+                <div class = "right">
+                    <p>Rate our Services</p>
+                    <select id="dropdown">
+                        <option selected disabled>Select</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+
+                </div>
+
+            </section>
+
+            <section id="third">
+                
+
+                <div class="right">
+                    <p>How likely would you recommend us</p>
+                    <label for = "Very">
+                        <input id = "Very" name="recommend" type ="radio" value="1" >Very
+                    </label><br>
+                    <label for = "Maybe">
+                        <input id = "Maybe" name="recommend" type ="radio" value="2">Maybe
+                    </label><br>
+                    <label for = "No">
+                        <input id = "No" name="recommend" type ="radio" value="3">No
+                    </label>
+                </div>
+
+            </section>
+
+            <section id="fourth">
+                
+                
+                <div class="right">
+                    <p>Which of our products do you use</p>
+                    <label for ="Tele">
+                        <input id = "Tele" name = "products" value = "1" type = "checkbox">Tele
+                    </label><br>
+                    <label for ="Data">
+                         <input id = "Data" name = "products" value = "1" type = "checkbox">Data
+                    </label><br>
+                    <label for ="Cloud">
+                        <input id = "Cloud" name = "products" value = "1" type = "checkbox">Cloud
+                    </label><br>
+
+                </div>
+
+            </section>
+
+            <section id="fifth">
+                <div id="texttitle">
+                    <p id="comment">Comment below to recommend ways of providing a better service to you</p>
+                </div>
+                <textarea placeholder="Please lay your request here"></textarea>
+
+            </section>
+            <footer>
+                <button id="submit" type="submit">Submit</button>
+            </footer>
+        </form>
+
+    </div>
   </body>
 </html>
