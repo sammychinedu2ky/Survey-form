@@ -35,7 +35,7 @@ article{
 #first{
     height:70vh;
     width:auto;
-    background-image: url("name.png");
+    background-image: url("./name.png");
   background-size:contain;
   background-repeat:no-repeat;
   
@@ -60,7 +60,7 @@ grid-template-rows: 1f 2f 1f;
 #second{
   height:70vh;
     width:auto;
-    background-image: url("rating.png");
+    background-image: url("./rating.png");
   background-size:contain;
   background-repeat:no-repeat;
   display:grid;
@@ -75,7 +75,7 @@ grid-template-rows: 1f 2f 1f;
 #third{
     height:70vh;
       width:auto;
-      background-image: url("recommend.png");
+      background-image: url("./recommend.png");
     background-size:contain;
     background-repeat:no-repeat;
     display:grid;
@@ -86,7 +86,7 @@ grid-template-rows: 1f 2f 1f;
   #fourth{
     height:70vh;
       width:auto;
-      background-image: url("product\ use.png");
+      background-image: url("./product\ use.png");
     background-size:contain;
     background-repeat:no-repeat;
     display:grid;
